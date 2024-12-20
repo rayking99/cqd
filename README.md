@@ -9,11 +9,9 @@ A lightweight Python utility that provides colored visualization of object attri
   - 🟡 Yellow: Protected attributes (starting with `_`)
   - 🟢 Green: Public attributes and methods
 
-
-For example - here is a snippet of the tokenizer from huggingface. 
+For example - here is a snippet of the tokenizer from huggingface.
 
 ![alt text](assets/example.png)
-
 
 ## Installation
 
@@ -33,6 +31,20 @@ from cqd import cqd
 # Example usage
 cqd(your_object)
 ```
+
+If you want to see the types, use cqd2
+
+```python
+from cqd import cqd2 as q
+import math
+
+q(math)
+
+```
+
+That will produce:
+
+![alt text](assets/example2.png)
 
 ## Contributing
 
