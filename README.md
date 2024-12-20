@@ -11,7 +11,7 @@ A lightweight Python utility that provides colored visualization of object attri
 
 For example - here is a snippet of the tokenizer from huggingface.
 
-![alt text](assets/example.png)
+<img src="assets/example.png" width="500" alt="example">
 
 ## Installation
 
