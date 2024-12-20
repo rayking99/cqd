@@ -1,4 +1,4 @@
-# cqd (colour quick dir)
+# cqd
 
 A lightweight Python utility that provides colored visualization of object attributes, making it easier to inspect objects during development and debugging.
 
