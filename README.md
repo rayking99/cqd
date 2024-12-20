@@ -9,6 +9,12 @@ A lightweight Python utility that provides colored visualization of object attri
   - 🟡 Yellow: Protected attributes (starting with `_`)
   - 🟢 Green: Public attributes and methods
 
+
+For example - here is a snippet of the tokenizer from huggingface. 
+
+![alt text](assets/example.png)
+
+
 ## Installation
 
 You can install the package using pip:
