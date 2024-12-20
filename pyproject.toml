@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cqd"
+version = "0.1.0"
+authors = [
+    { name = "Jason Pickup", email = "therayking99@gmail.com" }
+]
+description = "cqd - A colorful object attribute inspector"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Debuggers",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rayking99/cqd"
+"Bug Tracker" = "https://github.com/rayking99/cqd/issues"
